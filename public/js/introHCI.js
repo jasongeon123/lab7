@@ -10,4 +10,7 @@ $(document).ready(function() {
  */
 function initializePage() {
 	// your code here
+	$().click(function(){
+		ga("send","event","like","click");
+	});
 }
